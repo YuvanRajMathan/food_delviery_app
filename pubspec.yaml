@@ -56,6 +56,18 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  flutter:
+    assets:
+      -assets/images/
+    fonts:
+      -family: Metropolis
+      fonts:
+        -assets: assets/fonts/Metropolis-Bold.otf
+        -assets: assets/fonts/Metropolis-ExtraBold.otf
+        -assets: assets/fonts/Metropolis-Medium.otf
+        -assets: assets/fonts/Metropolis-Regiular.otf
+        -assets: assets/fonts/Metropolis-SemiBold.otf
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
